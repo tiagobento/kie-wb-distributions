@@ -1702,6 +1702,24 @@
                   </resources>
                 </configuration>
               </execution>
+              <execution>
+                <id>copy-appformer-js-registry</id>
+                <phase>process-resources</phase>
+                <goals>
+                  <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                  <outputDirectory>${project.build.outputDirectory}/org/uberfire/jsbridge/public</outputDirectory>
+                  <resources>
+                    <resource>
+                      <directory>${basedir}/src/main/appformer-js/community/</directory>
+                      <includes>
+                        <include>AppFormerComponentsRegistry.js</include>
+                      </includes>
+                    </resource>
+                  </resources>
+                </configuration>
+              </execution>
             </executions>
           </plugin>
         </plugins>
@@ -1780,6 +1798,24 @@
                         <include>home-perspective-bundle.js</include>
                         <include>business-monitoring-product-home-screen-bundle.js</include>
                         <include>spaces-screen-bundle.js</include>
+                      </includes>
+                    </resource>
+                  </resources>
+                </configuration>
+              </execution>
+              <execution>
+                <id>copy-appformer-js-registry</id>
+                <phase>process-resources</phase>
+                <goals>
+                  <goal>copy-resources</goal>
+                </goals>
+                <configuration>
+                  <outputDirectory>${project.build.outputDirectory}/org/uberfire/jsbridge/public</outputDirectory>
+                  <resources>
+                    <resource>
+                      <directory>${basedir}/src/main/appformer-js/product/</directory>
+                      <includes>
+                        <include>AppFormerComponentsRegistry.js</include>
                       </includes>
                     </resource>
                   </resources>
