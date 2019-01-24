@@ -1636,8 +1636,7 @@
       <dependencies>
         <dependency>
           <groupId>org.kie</groupId>
-          <artifactId>business-monitoring-home-page-community</artifactId>
-          <version>${project.version}</version>
+          <artifactId>business-central-home-page-community</artifactId>
           <scope>provided</scope>
         </dependency>
         <dependency>
@@ -1659,7 +1658,7 @@
       <dependencies>
         <dependency>
           <groupId>org.kie</groupId>
-          <artifactId>business-monitoring-home-page-product</artifactId>
+          <artifactId>business-central-home-page-product</artifactId>
           <scope>provided</scope>
         </dependency>
         <dependency>
