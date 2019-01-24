@@ -219,7 +219,6 @@
                   <compileSourcesArtifact>org.kie:business-central-theme-community</compileSourcesArtifact>
                   <!-- Community Home Page -->
                   <compileSourcesArtifact>org.kie:business-central-home-page-community</compileSourcesArtifact>
-                  <compileSourcesArtifact>org.kie.workbench.screens:kie-wb-common-home-api</compileSourcesArtifact>
                   <compileSourcesArtifact>org.kie.workbench.screens:kie-wb-common-home-client</compileSourcesArtifact>
                 </compileSourcesArtifacts>
               </configuration>
@@ -254,7 +253,6 @@
                   <compileSourcesArtifact>org.kie:business-central-theme-product</compileSourcesArtifact>
                   <!-- Product Home Page -->
                   <compileSourcesArtifact>org.kie:business-central-home-page-product</compileSourcesArtifact>
-                  <compileSourcesArtifact>org.kie.workbench.screens:kie-wb-common-home-api</compileSourcesArtifact>
                   <compileSourcesArtifact>org.kie.workbench.screens:kie-wb-common-home-client</compileSourcesArtifact>
                 </compileSourcesArtifacts>
               </configuration>
